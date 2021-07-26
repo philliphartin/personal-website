@@ -9,19 +9,16 @@
       </p>
       <p class="md:text-xl mb-4"></p>
       <p class="md:text-xl mb-4">
-        I'm currently enjoying my role as Head of Product Engineering at
-        <a href="https://www.bigpicturemedical.com" class="text-gray-400"
-          >Big Picture Medical</a
-        >, a med-tech company, where we are shaping
-        the future delivery of healthcare.
+        I'm the Technical Director and Co-Founder of
+        <a href="https://www.littlefox.studio" class="text-gray-400"
+          >Littlefox Studio</a
+        >, a full-service agency, where we obsess over compelling and highly technical digital products.
       </p>
       <p class="md:text-xl mb-6">
-        My work commitments keep me quite busy, so I apologise if I'm slow to
-        respond, but if you'd like to get in touch please don't hesitate to
-        reach out for a chat.
+        My work commitments keep me quite busy, but I'm always keen to chat about interesting projects, so don't hesitate to reach out over email or socials.
       </p>
 
-      <a class="text-lg mx-2" href="mailto:contact@philliphartin.com">
+      <a class="text-lg mx-2" href="mailto:phillip@littlefox.studio">
         <font-awesome-icon :icon="['fas', 'inbox']"></font-awesome-icon>
       </a>
 
