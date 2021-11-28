@@ -12,10 +12,10 @@
         I'm the Technical Director and Co-Founder of
         <a href="https://www.littlefox.studio" class="text-gray-400"
           >Littlefox Studio</a
-        >, a full-service agency, where we obsess over compelling and highly technical digital products.
+        >, a venture studio, where we obsess over compelling digital products.
       </p>
       <p class="md:text-xl mb-6">
-        My work commitments keep me quite busy, but I'm always keen to chat about interesting projects, so don't hesitate to reach out over email or socials.
+        My obsessing over work keeps me quite busy, but I'm always keen to hear about another interesting project, so don't hesitate to reach out over email or socials.
       </p>
 
       <a class="text-lg mx-2" href="mailto:phillip@littlefox.studio">
