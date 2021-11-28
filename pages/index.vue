@@ -15,7 +15,7 @@
         >, a venture studio, where we obsess over compelling digital products.
       </p>
       <p class="md:text-xl mb-6">
-        My obsessing over work keeps me quite busy, but I'm always keen to hear about another interesting project, so don't hesitate to reach out over email or socials.
+        My work keeps me quite busy, but I'm always keen to hear about another interesting project, so don't hesitate to reach out over email or socials.
       </p>
 
       <a class="text-lg mx-2" href="mailto:phillip@littlefox.studio">
