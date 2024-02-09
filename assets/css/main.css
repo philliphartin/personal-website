@@ -1,59 +1,3 @@
-/* FortAwesome */
-/* purgecss start ignore */
-@import "@fortawesome/fontawesome-svg-core/styles.css";
-/* purgecss end ignore */
-
-/* Tailwind */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Nuxt Page Transitions */
-/* purgecss start ignore */
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.5s;
-}
-
-.page-enter,
-.page-leave-to {
-  opacity: 0;
-}
-
-/* Web Font Loader */
-/*html {*/
-
-/*h1,*/
-/*h2,*/
-/*h3,*/
-/*h4,*/
-/*h5,*/
-/*h6,*/
-/*p,*/
-/*ul,*/
-/*li,*/
-/*a {*/
-/*opacity: 0;*/
-/*transition: opacity 100ms ease-in;*/
-/*}*/
-
-/*&.wf-active {*/
-
-/*h1,*/
-/*h2,*/
-/*h3,*/
-/*h4,*/
-/*h5,*/
-/*h6,*/
-/*p,*/
-/*ul,*/
-/*li,*/
-/*a {*/
-/*opacity: 1;*/
-/*}*/
-/*}*/
-/*}*/
-
 #main {
   transition: all 350ms ease-in-out;
 }
@@ -97,4 +41,3 @@
 /* Custom Selection Style */
 ::selection { background: #405dff; }
 
-/* purgecss end ignore */

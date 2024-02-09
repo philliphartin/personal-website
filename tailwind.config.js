@@ -1,16 +1,13 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
-module.exports = {
+export default {
   theme: {
     extend: {
       fontSize: {
         "7xl": "5rem",
       },
       fontFamily: {
-        sans: ["Work Sans", ...defaultTheme.fontFamily.sans],
-        serif: ["Playfair Display", ...defaultTheme.fontFamily.sans],
+        sans: ["Work Sans", "sans-serif"],
+        serif: ["Playfair Display", "serif"],
       },
     },
   },
-  variants: {},
-  plugins: [],
 };

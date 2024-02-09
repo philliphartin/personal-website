@@ -26,15 +26,20 @@
     </div>
   </section>
 </template>
-<script>
-import { mapActions, mapState, mapGetters } from "vuex";
-import styleMixin from "./../mixin/style-mixin";
-export default {
-  mixins: [styleMixin],
-  data() {
-    return {};
-  }
-};
+<script setup lang="ts">
+// import { mapActions, mapState, mapGetters } from "vuex";
+// import styleMixin from "./../mixin/style-mixin";
+// export default {
+//   // mixins: [styleMixin],
+//   data() {
+//     return {};
+//   },
+// };
+
+function colourCycle() {
+// TODO: Implement colour cycle 
+}
+
 </script>
 
 <style>

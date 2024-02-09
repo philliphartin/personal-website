@@ -1,31 +1,25 @@
 {
   "name": "personal-website",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "My personal site",
   "author": "Phillip Hartin <mail@philliphartin.com>",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.19",
-    "@fortawesome/free-brands-svg-icons": "^5.9.0",
-    "@fortawesome/free-solid-svg-icons": "^5.9.0",
-    "@fortawesome/vue-fontawesome": "^0.1.6",
-    "cross-env": "^5.2.0",
-    "feather-icons": "^4.9.0",
-    "nuxt": "^2.14.7",
-    "print-js": "^1.0.54",
-    "tailwindcss": "^1.0.4",
-    "vuex": "^3.1.1"
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
-    "babel-eslint": "^8.2.1",
-    "postcss-nested": "^4.1.1",
-    "nuxt-purgecss": "^0.2.1"
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.11.3",
+    "nuxt": "^3.10.1",
+    "nuxt-icon": "^0.6.8",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "vue": "^3.4.18",
+    "vue-router": "^4.2.5"
   }
 }
