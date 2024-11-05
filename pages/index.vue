@@ -2,7 +2,7 @@
   <div class="bg-dotted flex min-h-screen flex-col items-center justify-center">
     <!-- <div class="flex"> -->
     <NuxtImg
-      src="/images/headshot.jpg"
+      src="/images/phillip.jpg"
       sizes="100vw sm:50vw md:400px"
       class="mb-6 size-32 rounded-full sm:size-48" />
 
