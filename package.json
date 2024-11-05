@@ -1,31 +1,24 @@
 {
-  "name": "personal-website",
-  "version": "1.0.0",
-  "description": "My personal site",
-  "author": "Phillip Hartin <mail@philliphartin.com>",
+  "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.19",
-    "@fortawesome/free-brands-svg-icons": "^5.9.0",
-    "@fortawesome/free-solid-svg-icons": "^5.9.0",
-    "@fortawesome/vue-fontawesome": "^0.1.6",
-    "cross-env": "^5.2.0",
-    "feather-icons": "^4.9.0",
-    "nuxt": "^2.14.7",
-    "print-js": "^1.0.54",
-    "tailwindcss": "^1.0.4",
-    "vuex": "^3.1.1"
+    "@nuxt/eslint": "^0.6.1",
+    "@nuxt/image": "^1.8.1",
+    "nuxt": "^3.14.0",
+    "vue": "latest",
+    "vue-router": "latest"
   },
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
-    "babel-eslint": "^8.2.1",
-    "postcss-nested": "^4.1.1",
-    "nuxt-purgecss": "^0.2.1"
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@types/eslint-plugin-tailwindcss": "^3.17.0",
+    "eslint-plugin-tailwindcss": "^3.17.5"
   }
 }
